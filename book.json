@@ -68,9 +68,14 @@
       "hide-element",
       "todo",
       "mygitalk",
-      "edit-link"
+      "edit-link",
+      "sectionx",
+      "theme-api"
   ],
   "pluginsConfig": {
+  	"sectionx": {
+          "tag": "b"
+        },
   	"edit-link": {
           "base": "https://github.com/witnessgpi/categories/tree/master",
           "label": "Edit"

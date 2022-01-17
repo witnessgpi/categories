@@ -4,11 +4,11 @@
 
 -----
 * [科学](part1/science.md)
-    * [生物](part1/biology.md#生物)
-    * [物理](part1/physics.md#物理)
-    * [化学](part1/chemistry.md#化学)
-    * [医学](part1/medicine.md#医学)
-    * [计算机](part1/computer.md#计算机)
+    * [生物](part1/biology.md)
+    * [物理](part1/physics.md)
+    * [化学](part1/chemistry.md)
+    * [医学](part1/medicine.md)
+    * [计算机](part1/computer.md)
 
 -----
 * [政治](part2/politics.md)
@@ -28,5 +28,4 @@
 * [体育](part6/sport.md)
 
 -----
-* [词汇表|备注](part7/GLOSSARY.md)
-
+* [词汇表|备注](GLOSSARY.md)
