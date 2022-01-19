@@ -1,1 +1,5 @@
 /_book
+
+# Jekyll generated
+/_site/
+/Gemfile.lock
