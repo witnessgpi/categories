@@ -1,7 +1,7 @@
 {
     "root":".",
     "author":"三次元观察者",
-    "title":"见证者 — 性别平等发展历程",
+    "title":"见证者 — 两性平等发展历程",
     "language":"zh-hans",
     "description":"历史长河中一粒沙，一个过客的观测",
     "isbn":"000-0-00-000000-0",
@@ -15,6 +15,15 @@
 
     "variables":{
         "blog":"https://witnessgpi.github.io/categories"
+    },
+
+    "links":{
+        "sidebar":{
+            "首页|主站":"https://witnessgpi.github.io",
+            "热点事件":"https://witnessgpi.github.io/HotSpot",
+            "相关书籍":"https://witnessgpi.github.io/Books",
+            "相关动漫":"https://witnessgpi.github.io/animation"
+        }
     },
 
 
@@ -70,9 +79,44 @@
       "mygitalk",
       "edit-link",
       "sectionx",
-      "theme-api"
+      "theme-api",
+      "anchor-navigation-ex",
+      "sitemap"
   ],
+  
   "pluginsConfig": {
+    "sitemap": {
+            "hostname": "http://witnessgpi.github.io/Books"
+    },
+
+    "anchor-navigation-ex": {
+    "showLevel": true,
+    "associatedWithSummary": false,
+    "printLog": true,
+    "multipleH1": false,
+    "mode": "float",
+    "showGoTop":false,
+    "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-star",
+        "level3Icon": "fa fa-star-o"
+        }
+    },
+  	"theme-api": {
+      "languages": [
+        {
+          "lang": "js",          
+          "name": "事迹",  
+          "default": true        
+        },
+        {
+          "lang": "go",
+          "name": "参考"
+        }
+      ]
+    },
   	"sectionx": {
           "tag": "b"
         },
@@ -182,7 +226,7 @@
       "search-placeholder": "Input Keywords to Search", 
       "book-summary-title": "Article Directory", 
       "book-anchor-title": "Search In the Article", 
-      "hide-elements": [".summary .gitbook-link", ".summary .divider"], 
+      "hide-elements": [".summary .gitbook-link"], 
       "copyright": {
         "author": "三次元观察者"  
       }
@@ -204,12 +248,17 @@
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/HotSpot", 
-          "name": "相关热点"  
+          "name": "热点事件"  
         },
         {
           "target": "_blank", 
           "url": "http://witnessgpi.github.io/Books", 
           "name": "相关书籍" 
+        },
+        {
+          "target": "_blank", 
+          "url": "http://witnessgpi.github.io/animation", 
+          "name": "相关动漫" 
         }
       ],
       

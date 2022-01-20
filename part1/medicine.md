@@ -1,6 +1,6 @@
 # 医学
 
-<!--sec data-title="名单" data-id="section0" data-show=false ces-->
+<!--sec data-title="名单" data-id="section0" data-show=true ces-->
 [屠呦呦](#屠呦呦)
 <!--endsec-->
 
