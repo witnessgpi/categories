@@ -68,7 +68,7 @@
       "alerts",
       "flexible-alerts",
       "-highlight",
-      "-sharing", 
+      "-sharing",
       "sharing-plus",
       "tbfed-pagefooter",
       "prism",
@@ -83,7 +83,7 @@
       "anchor-navigation-ex",
       "sitemap"
   ],
-  
+
   "pluginsConfig": {
     "sitemap": {
             "hostname": "http://witnessgpi.github.io/Books"
@@ -98,7 +98,7 @@
     "showGoTop":false,
     "float": {
         "floatIcon": "fa fa-navicon",
-        "showLevelIcon": false,
+        "showLevelIcon": true,
         "level1Icon": "fa fa-hand-o-right",
         "level2Icon": "fa fa-star",
         "level3Icon": "fa fa-star-o"
@@ -107,9 +107,9 @@
   	"theme-api": {
       "languages": [
         {
-          "lang": "js",          
-          "name": "事迹",  
-          "default": true        
+          "lang": "js",
+          "name": "事迹",
+          "default": true
         },
         {
           "lang": "go",
@@ -197,13 +197,13 @@
   	"github": {
             "url": "https://github.com/witnessgpi/witnessgpi.github.io"
         },
-        
+
      "mygitalk": {
   	   "clientID": "42eccd4989a61038ecb5",
        "clientSecret": "f84cad2dd856e96eed949144cef9016561df3362",
        "repo": "categories",
        "owner": "witnessgpi",
-       "admin": ["witnessgpi"],   
+       "admin": ["witnessgpi"],
        "distractionFreeMode": false
   	},
 
@@ -215,20 +215,20 @@
                 "className": "info"
             }
         },
- 
-     
+
+
     "theme-lou": {
-      "color": "#c24822", 
-      "favicon": "static/WIKIlogo.png", 
-      "logo": "static/WitnessLogo.png", 
+      "color": "#c24822",
+      "favicon": "static/WIKIlogo.png",
+      "logo": "static/WitnessLogo.png",
       "appleTouchIconPrecomposed152": "static/apple.png",
-      "forbidCopy": false, 
-      "search-placeholder": "Input Keywords to Search", 
-      "book-summary-title": "Article Directory", 
-      "book-anchor-title": "Search In the Article", 
-      "hide-elements": [".summary .gitbook-link"], 
+      "forbidCopy": false,
+      "search-placeholder": "Input Keywords to Search",
+      "book-summary-title": "Article Directory",
+      "book-anchor-title": "Search In the Article",
+      "hide-elements": [".summary .gitbook-link"],
       "copyright": {
-        "author": "三次元观察者"  
+        "author": "三次元观察者"
       }
     }
   },
@@ -236,43 +236,35 @@
     "themeLou": {
       "nav": [
         {
-          "target": "_blank", 
-          "url": "http://witnessgpi.github.io",  
-          "name": "首页" 
+          "target": "_blank",
+          "url": "http://witnessgpi.github.io",
+          "name": "首页"
         },
         {
-          "target": "_blank", 
-          "url": "http://witnessgpi.github.io/categories", 
-          "name": "领域分类"  
+          "target": "_blank",
+          "url": "http://witnessgpi.github.io/categories",
+          "name": "领域分类"
         },
         {
-          "target": "_blank", 
-          "url": "http://witnessgpi.github.io/HotSpot", 
-          "name": "热点事件"  
+          "target": "_blank",
+          "url": "http://witnessgpi.github.io/HotSpot",
+          "name": "热点事件"
         },
         {
-          "target": "_blank", 
-          "url": "http://witnessgpi.github.io/Books", 
-          "name": "相关书籍" 
+          "target": "_blank",
+          "url": "http://witnessgpi.github.io/Books",
+          "name": "相关书籍"
         },
         {
-          "target": "_blank", 
-          "url": "http://witnessgpi.github.io/animation", 
-          "name": "相关动漫" 
+          "target": "_blank",
+          "url": "http://witnessgpi.github.io/animation",
+          "name": "相关动漫"
         }
       ],
-      
+
       "footer": {
-        "donate": {
-          "button": "捐赠", 
-          "avatar": "https://cdn.jsdelivr.net/gh/YDTRINLEY/AssetsRepo@master/assets-img/headshot.4g7cjdpq4xs0.png", 
-          "nickname": "三次元观察者", 
-          "message": "随意打赏，但不要超过一顿早餐钱喔✨！", 
-          "text": "『 祝您福慧安康 🌹 愿望世界和平 🌹 希望能加点备注(我才能专款专用) 』", 
-          "wxpay": "static/wechat.jpg", 
-          "alipay": "static/alipay.jpg" 
-        },
-        "copyright": false 
+
+        "copyright": false
       }
     }
   }
